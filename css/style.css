@@ -3,14 +3,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 #container{
-    background-color: burlywood;
+    background-color: #ffffff;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 #header{
-    background-color: rgba(red, green, blue, alpha);
+    background-color: silver;
     text-align: center;
+    width: 1100px;
+    border: 20px;
+    border-color: seashell;
+    margin-left: auto;
+    margin-right: auto;
 }
 #content{
     padding-left: 10px;
@@ -34,4 +39,12 @@ body{
     text-align: right;
     color: #ffffff;
 }
-
+h3{
+    color: chartreuse;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
