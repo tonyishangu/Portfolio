@@ -49,10 +49,24 @@ h4{
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-@media (max-width: 960px){
+@media (max-width: 1200px){
     #container{
         width: auto;
         height: auto;
+    }
+    #header{
+        width: auto;
+    }
+    #PROJECT{
+        width: auto;
+        height: auto;
+    }
+    #about{
+        width: auto;
+        height: auto;
+    }
+    #footer{
+        width: auto;
     }
 }
     
