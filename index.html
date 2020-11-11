@@ -1,38 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>My Portfolio</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-    <div id="container">
-        <div id="header">
+    <div id="particles">
+        <div id="webcoderskull">
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                </a>
+                                <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                <div class="dropdown-menu dropdown-menu-right animate slideIn"
+                                    aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="projects.html">Projects</a>
+                                    <a class="dropdown-item" href="skill.html">Skills</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="contact.html">Contact</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br>
+            <div id="header">
                 <img src="image/tonnie.jpg" width="200 px" alt="Profile Pic">
-                <h2>TONNIE ISHANGU </h2>
-                <h4><em>Software Developer</em></h4>
-        </div>
-        <div id="content">
-            <div id="PROJECT">
-                <h3>Projects :</h3>
-                <ul>
-                    <li><a href="https://github.com/tonyishangu/hotel-project">Hotel Webpage</a></li>
-                    <p>This was my first practice project without any guidance on how to make a webpage using HTML and style it using CSS.</p>
-                    <li><a href="https://github.com/tonyishangu/my-pet">My Pet</a></li>
-                    <P>This was my second project of the in which I went further to include for than one page in the website and stle each page.</P>
-                </ul>
+                <h2>Tony Ishangu </h2>
+
             </div>
-            <div id="about">
-                <h3>About Me :</h3>
-                <p>Am a Software Development student at Moringa School with a Diploma in BIT from CUK and  Graphics Design Certificate from GIPS. Worked as a Graphics Designer for 5 months at The Owner Ventures in Nairobi.</p>
-                <p>I have a major intrest in creating awesome websites and applications hence the reason I chose to study Software Development.</p>
-                <p>My hobbies are : I like doing graphics design work, reading books, playing video games</p>
+            <div class="aboutme">
+                <h5>Hi there!</h5>
+                <p>Full-stack Developer / Graphics Designer</p>
+                <p>With a passion for <br> web development and creation of brands</p>
+                <a href="projects.html"><button type="button" class="btn btn-dark">View My Projects</button></a>
+
+            </div><br>
+            <div id="footer">
+                <div class="icon">
+                    <div class="icons">
+                        <a href="https://twitter.com/Tonnie_ishangu"> <img src="image/twitter.png" alt="icon"
+                                width="30 px"></a>
+                        <a href="https://www.facebook.com/antonio.canales.5872"><img src="image/facebook.png" alt="icon"
+                                width="30 px"></a>
+                        <a href="https://www.behance.net/tonniesaigelo"> <img src="image/behance.png" alt="icon"
+                                width="30 px"></a>
+                    </div>
+                </div>
+                <p>copyright &copy;2020 tonnieishangu</p>
             </div>
-        </div>
-        <div id="footer">
-            <p>copyright &copy;2020 tonnieishangu</p>
+
         </div>
     </div>
+
+
+    <div id="container">
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
