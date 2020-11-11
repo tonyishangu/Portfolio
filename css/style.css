@@ -1,5 +1,4 @@
 body{
-    background-color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 #container{
@@ -10,7 +9,6 @@ body{
     padding: 10px;
 }
 #header{
-    background-color: silver;
     text-align: center;
     width: 1100px;
     border: 20px;
@@ -34,10 +32,7 @@ body{
     background-color: cornsilk;
 }
 #footer{
-    clear: both;
-    padding: 10px;
-    background-color: #222222;
-    text-align: right;
+    text-align: center;
     color: #ffffff;
 }
 h3{
@@ -49,6 +44,66 @@ h4{
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#webcoderskull{
+    position: absolute;
+    left: 0;
+    top: 5%;
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+    height:125vh;
+    background-color:#16a085;
+}
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+
+/* Other styles for the page not related to the animated dropdown */
+
 @media (max-width: 1200px){
     #container{
         width: auto;

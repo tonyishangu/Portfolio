@@ -1,5 +1,9 @@
-## PORTFOLIO LANDING PAGE
-### Tony Ishangu
+# Portfolio Landing Page
+## Tony Ishangu
+
+### Description
+This is a webpage project done to show a portfolio landing page made using HTML and stled using CSS.
+
 #### Project Setup
 fork to local repository
 open in a new text editer
